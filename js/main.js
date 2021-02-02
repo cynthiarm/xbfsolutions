@@ -5,7 +5,7 @@
  });
 
  function redirect(url) {
-	window.location.href = window.location.host + url;
+	window.location.href = url;
 }
 
 jQuery(document).ready(function($) {
