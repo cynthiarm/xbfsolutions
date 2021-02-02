@@ -399,6 +399,21 @@ body:after {
             }
           }
 
+          .link  {
+            color: #212529;
+          }
+
+          .site-mobile-menu .site-nav-wrap > li > span {
+            padding-left: 20px;
+            font-size: 20px;
+        }
+        .site-mobile-menu .site-nav-wrap span {
+            padding: 10px 20px;
+            display: block;
+            position: relative;
+            color: #212529;
+            cursor: pointer;
+        }
 
 .site-mobile-menu {
   width: 300px;

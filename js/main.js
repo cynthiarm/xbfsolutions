@@ -4,6 +4,10 @@
  	once: true
  });
 
+ function redirect(url) {
+	window.location.href = window.location.host + url;
+}
+
 jQuery(document).ready(function($) {
 
 	"use strict";
