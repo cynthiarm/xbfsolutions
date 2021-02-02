@@ -386,7 +386,19 @@ body:after {
 
           .logo {
             width: 370px;
+            
           }
+          @media (max-width: 1200px) {
+            .logo { 
+              width: 200px !important;       
+              margin-right: 1em;  
+            }
+            .mobile-header {
+              align-items: center;
+              justify-content: space-between;
+            }
+          }
+
 
 .site-mobile-menu {
   width: 300px;
