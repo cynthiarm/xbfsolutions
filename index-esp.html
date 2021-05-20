@@ -7,7 +7,7 @@
     
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
-
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/jquery-ui.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="css/aos.css">
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -31,7 +32,7 @@
   <div id="overlayer"></div>
   <div class="loader">
     <div class="spinner-border text-primary" role="status">
-      <span class="sr-only">Loading...</span>
+      <span class="sr-only">Cargando...</span>
     </div>
   </div>
 
@@ -56,29 +57,35 @@
             <nav class="site-navigation position-relative text-right" role="navigation">
     <div class="navbar-header">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                <a href="index-esp.html">
                   <img class="img-responsive logo" src="images/logo.png" alt="logo">
-                <li><a href="#home-section" class="nav-link">Inicio</a></li>
-                <li><a href="#about-section" class="nav-link">Nosotros</a></li>
-                <li><a href="#services-section" class="nav-link">Servicios</a></li>
-                <li><a href="#contact-section" class="nav-link">Contacto</a></li>
-                <li><span onclick='redirect("https://cynthiarm.github.io/xbfsolutions/index.html")' >Inglés</span></li>
-                <li><span onclick='redirect("https://cynthiarm.github.io/xbfsolutions/index-esp.html")' >Español</span></li>
-                
+                </a>                
+                <li><a href="index-esp.html" class="nav-link">Inicio</a></li>
+                <li><a href="nosotros.html" class="nav-link">Nosotros</a></li>
+                <li><a href="servicios.html" class="nav-link">Servicios</a></li>
+                <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span<i class="fa fa-globe"></i></span></a>
+                  <div class="dropdown-menu">
+                   <ul>
+                    <li><a href="index.html">Inglés</a></li>
+                    <li><a href="index-esp.html">Español</a></li>
+                   </ul>
+                  </div>
+                </li>                
            <!--       <ul class="dropdown">
                     <li><a href="#team-section" class="nav-link">Team</a></li>
-                    <li><a href="#gallery-section" class="nav-link">Gallery</a></li>--> 
+                    <li><a href="#gallery-section" class="nav-link">Gallery</a></li>
                       </ul>
                   </ul>
-                </li>
+                </li>--> 
                  <!-- <li class="social"><a href="#contact-section" class="nav-link"><span class="icon-facebook"></span></a></li>
                 <li class="social"><a href="#contact-section" class="nav-link"><span class="icon-twitter"></span></a></li>
                 <li class="social"><a href="#contact-section" class="nav-link"><span class="icon-linkedin"></span></a></li>--> 
               </ul>
             </nav>
           </div>
-
-          <div class="col-6 d-flex d-xl-none ml-md-0 py-3 mobile-header" style="position: relative; top: 3px;"> <img class="img-responsive logo" src="images/logo.png" alt="logo"><a href="#" class="site-menu-toggle js-menu-toggle float-right">  <span class="icon-menu h3"></span></a></div>
-
+          <div class="col-6 d-flex d-xl-none ml-md-0 py-3 mobile-header" style="position: relative; top: 3px;"> <img class="img-responsive logo" src="images/logo.png" alt="logo"><a href="index-esp.html" class="site-menu-toggle js-menu-toggle float-right">  <span class="icon-menu h3"></span></a></div>
         </div>
       </div>
       
@@ -123,233 +130,81 @@
             
         </div>
       </div>
-      <a href="#next" class="mouse smoothscroll">
+      <a href="#about-section" class="mouse smoothscroll">
         <span class="mouse-icon">
           <span class="mouse-wheel"></span>
         </span>
       </a>
     </div>  
-    <section class="site-section border-bottom bg-light" id="about-section">
+  
     <div class="site-section cta-big-image" id="about-section">
       <div class="container">
         <div class="row mb-5 justify-content-center">
           <div class="col-md-8 text-center">
             <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">Nosotros</h2>
-            <p class="lead" data-aos="fade-up" data-aos-delay="100">10 años de experiencia en Administración de franquicias.</p>
+            <p class="lead" data-aos="fade-up" data-aos-delay="100">Más de 10 años de experiencia en administración de franquicias.</p>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
             <figure class="circle-bg">
-            <img src="images/img_2.jpg" alt="Free Website Template by Free-Template.co" class="img-fluid">
+            <img src="images/img_2.jpg" class="img-fluid">
             </figure>
           </div>
-          <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="text-black mb-4">Te ayudamos a gestionar tus áreas que te respaldan</h3>
+          <div class="col-lg-5 mx-auto " data-aos="fade-up" data-aos-delay="100">
+            <h3 class="lead text-center mb-4">Te ayudamos a gestionar su organización</h3>
             <p>Somos una empresa dedicada a la prestación de servicios de administración a franquicias de restaurantes ubicadas en Estados Unidos, incluye servicios y departamentos como Contabilidad, Nómina, Soporte de Sistemas, Soporte de Reparaciones y Mantenimiento.</p>
-            <p>Deseamos proyectar la seriedad que 10 años de experiencia nos han brindado en el manejo y administración de Restaurantes.</p>  
+            <p>Deseamos proyectar la seriedad que 10 años de experiencia nos han brindado en el manejo y administración de restaurantes.</p>
+            <p class="flex-centered"><a href="nosotros.html" class="btn btn-primary btn-sm ">Leer Más</a></p>  
           </div>
         </div>     
       </div>  
     </div>
       </div>
-    </div>
+    </div> 
 
-    
-
-    
- <!--   <section class="site-section border-bottom" id="team-section">
-      <div class="container">
-        <div class="row mb-5 justify-content-center">
-          <div class="col-md-8 text-center">
-            <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">Meet Team</h2>
-            <p class="lead" data-aos="fade-up" data-aos-delay="100">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-          </div>
-        </div>
-        <div class="row">
-          
-
-          
-          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="">
-            <div class="team-member">
-              <figure>
-                <ul class="social">
-                  <li><a href="#"><span class="icon-facebook"></span></a></li>
-                  <li><a href="#"><span class="icon-twitter"></span></a></li>
-                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                  <li><a href="#"><span class="icon-instagram"></span></a></li>
-                </ul>
-                <img src="images/person_1.jpg" alt="Image" class="img-fluid">
-              </figure>
-              <div class="p-3">
-                <h3>Kaiara Spencer</h3>
-                <span class="position">Accountant</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="team-member">
-              <figure>
-                <ul class="social">
-                  <li><a href="#"><span class="icon-facebook"></span></a></li>
-                  <li><a href="#"><span class="icon-twitter"></span></a></li>
-                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                  <li><a href="#"><span class="icon-instagram"></span></a></li>
-                </ul>
-                <img src="images/person_2.jpg" alt="Image" class="img-fluid">
-              </figure>
-              <div class="p-3">
-                <h3>Dave Simpson</h3>
-                <span class="position">Bank Teller</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="team-member">
-              <figure>
-                <ul class="social">
-                  <li><a href="#"><span class="icon-facebook"></span></a></li>
-                  <li><a href="#"><span class="icon-twitter"></span></a></li>
-                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                  <li><a href="#"><span class="icon-instagram"></span></a></li>
-                </ul>
-                <img src="images/person_3.jpg" alt="Image" class="img-fluid">
-              </figure>
-              <div class="p-3">
-                <h3>Ben Thompson</h3>
-                <span class="position">Bank Teller</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="site-section" id="gallery-section" data-aos="fade">
-      <div class="container">
-        <div class="row mb-3">
-          <div class="col-12 text-center">
-            <h2 class="section-title mb-3">Gallery</h2>
-          </div>
-        </div>
-        <div id="posts" class="row no-gutter">
-          <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/img_1.jpg" class="item-wrap fancybox">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/img_1.jpg">
-            </a>
-          </div>
-          <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/img_2.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/img_2.jpg">
-            </a>
-          </div>
-          <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/img_3.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/img_3.jpg">
-            </a>
-          </div>
-          <div class="item design col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/img_4.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/img_4.jpg">
-            </a>
-          </div>
-          <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/img_5.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/img_5.jpg">
-            </a>
-          </div>
-          <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/img_1.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/img_1.jpg">
-            </a>
-          </div>
-          <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/img_2.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/img_2.jpg">
-            </a>
-          </div>
-          <div class="item design col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/img_3.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/img_3.jpg">
-            </a>
-          </div>
-          <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/img_4.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/img_4.jpg">
-            </a>
-          </div>
-          <div class="item design col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/img_5.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/img_5.jpg">
-            </a>
-          </div>
-          <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/img_1.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/img_1.jpg">
-            </a>
-          </div>
-          <div class="item design col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/img_2.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/img_2.jpg">
-            </a>
-          </div>        
-        </div>
-      </div>
-    </section> -->
-
-
-    <section class="site-section border-bottom bg-light" id="Quehacemos-section">
+    <section class="site-section" id="Quehacemos-section">
       <div class="container">
         <div class="row mb-5 justify-content-center">
           <div class="col-md-7 text-center">
             <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">Qué hacemos</h2>
-            <p class="lead" data-aos="fade-up" data-aos-delay="100">Guiamos sus servicios financieros al éxito.</p>
+            <p class="lead" data-aos="fade-up" data-aos-delay="100">Guiamos sus servicios financieros al éxito.<p>
           </div>
         </div>     
         <div class="row align-items-lg-center" >
           <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+           <figure class="circle-bg"> 
             <div class="owl-carousel slide-one-item-alt">
               <img src="images/about1.jpg" alt="Image" class="img-fluid">
               <img src="images/about2.jpg" alt="Image" class="img-fluid">
               <img src="images/about3.jpg" alt="Image" class="img-fluid">
               <img src="images/about4.jpg" alt="Image" class="img-fluid">
             </div>
+           </figure>  
             <div class="custom-direction">
-              <a href="#" class="custom-prev"><span><span class="icon-keyboard_backspace"></span></span></a><a href="#" class="custom-next"><span><span class="icon-keyboard_backspace"></span></span></a>
+              <a href="#" class="custom-prev"><span><span class="icon-keyboard_backspace"></span></span></a><a href="index-esp.html" class="custom-next"><span><span class="icon-keyboard_backspace"></span></span></a>
             </div>
           </div>
           <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">        
             <div class="owl-carousel slide-one-item-alt-text">
               <div>
-                <h2 class="section-title mb-3">01. Contabilidad</h2>
-                <p>Gestionar sus operaciones contables básicas, procesar todas las facturas, realizar los pagos semanales, gestionar las consultas de los proveedores y proporcionar facturas sin papel.</p>
-              </div>
-              <div>
-                <h2 class="section-title mb-3">02. Nómina</h2>
-                <p> Somos proveedores de servicios de nómina, los cheques de pago serán impresos y gestionados, los impuestos de nómina archivados y pagados.</p>
+                <h2 class="section-title mb-3">01.Contabilidad y Nómina.</h2>
+                <p>Administramos sus operaciones contables básicas, procesamos todas sus facturas, realizamos la administración de pagos y cheques.</p>
                <!--  <p><a href="#" class="btn btn-primary mr-2 mb-2">Learn More</a></p>-->
               </div>
               <div>
-                <h2 class="section-title mb-3">03. Soporte de Sistemas</h2>
-                <p>Contamos con especialistas en sistemas de información dispuestos a atender todos sus requerimientos.</p>
+                <h2 class="section-title mb-3">02. Gestión de RR.HH.</h2>
+                <p> Gestión del proceso de recursos humanos, capacitación del personal y control de calidad.</p>
                <!--  <p><a href="#" class="btn btn-primary mr-2 mb-2">Learn More</a></p>-->
               </div>
               <div>
-                  <h2 class="section-title mb-3">04.Soporte de Reparación y Mantenimiento</h2>
-                  <p>Si necesita ayuda con alguna de sus soluciones, ofrecemos servicios de asistencia y reparación.</p>
+                <h2 class="section-title mb-3">03. Propiedad, Impuestos, Proveedores, Seguros.</h2>
+                <p>Gestión de proveedores, facturas digitales, administramos los impuestos a la propiedad y brindamos asistencia para reclamación de seguros.</p>
+               <!--  <p><a href="#" class="btn btn-primary mr-2 mb-2">Learn More</a></p>-->
+              </div>
+              <div>
+                <h2 class="section-title mb-3">04.Soporte de Reparación y Mantenimiento.</h2>
+                <p>Si necesita ayuda con alguna de sus soluciones, ofrecemos servicios de asistencia y reparación.</p>
                 <!--  <p><a href="#" class="btn btn-primary mr-2 mb-2">Learn More</a></p>-->
               </div> 
             </div>    
@@ -358,98 +213,227 @@
       </div>
     </section>
 
-    <section class="site-section border-bottom bg-light" id="services-section">
+
+    <section class="site-section bg-light" id="services-section">
       <div class="container">
         <div class="row mb-5">
           <div class="col-12 text-center" data-aos="fade">
             <h2 class="section-title mb-3">Nuestros Servicios</h2>
+            <p class="lead" data-aos="fade-up" data-aos-delay="100">Conoce más acerca de nuestros servicios.</p>
           </div>
         </div>
         <div class="row align-items-stretch">
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up text-center">
             <div class="unit-4">
               <div class="unit-4-icon">
-                <img src="images/flaticon-svg/svg/001-wallet.svg" alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
+                <img src="images/flaticon-svg/svg/001-wallet.svg" class="img-fluid w-25 mb-4">
               </div>
               <div>
-                <h3>Contabilidad</h3>
-                <p>Prestar servicios de gestión financiera a las franquicias de restaurantes.</p>
-           <!--   <p><a href="#">Learn More</a></p>-->
+                <h3>Contabilidad y Nómina</h3>
+                <p>Brindamos servicios de gestión financiera a las franquicias de restaurantes. </p>
               </div>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="unit-4">
               <div class="unit-4-icon">
-                <img src="images/flaticon-svg/svg/006-credit-card.svg" alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
+                <img src="images/flaticon-svg/svg/009 - human.svg" class="img-fluid w-25 mb-4">
               </div>
               <div>
-                <h3>Nómina</h3>
-                <p>Gestión de toda la función de nóminas para todas las sedes.</p>
-             <!--   <p><a href="#">Learn More</a></p>-->
+                <h3>Recursos Humanos</h3>
+                <p>Administración, control de calidad y capacitación de recursos humanos.</p>
               </div>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="unit-4">
               <div class="unit-4-icon">
-                <img src="images/flaticon-svg/svg/008 - support.svg" alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
+                <img src="images/flaticon-svg/svg/008 - support.svg" class="img-fluid w-25 mb-4">
               </div>
               <div>
                 <h3>Servicios IT</h3>
-                <p>Desde soporte de sistemas hasta los servicios de reparación y mantenimiento.</p>
-                 <!--   <p><a href="#">Learn More</a></p>-->
+                <p>Desde soporte de sistemas hasta servicios de reparación y mantenimiento.</p>
               </div>
             </div>
           </div>
         </div>
+        <p class="flex-centered"><a href="servicios.html" class="btn btn-primary btn-sm ">Leer Más</a></p> 
+      </div>
+    </section>    
+
+    <section class="site-section" id="about-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center" data-aos="fade">
+            <h2 class="section-title mb-3">Nuestra Propuesta de Valor</h2>
+          </div>
+        </div>
+        <div class="row align-items-stretch">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
+            <div class="unit-4 d-flex">
+                <div class="unit-4-icon mr-4 mb-3"><i class="icon-check bi bi-check2-circle"></i></div>
+              <div>
+                <p>Modelo de servicio completo y se ofrece a una fracción del costo de la mayoría de las operaciones con sede en EE. UU.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="unit-4 d-flex">
+              <div class="unit-4-icon mr-4 mb-3"><i class="icon-check bi bi-check2-circle"></i></div>
+            <div>
+              <p>Por lo general, nuestros clientes reducen sus costos operativos hasta en un 40% al cambiar a XB.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="unit-4 d-flex">
+            <div class="unit-4-icon mr-4 mb-3"><i class="icon-check bi bi-check2-circle"></i></div>
+          <div>
+            <p>Los clientes obtienen acceso a nuestro sistema ERP preferido (Sage Intacct) a una fracción del costo.</p>
+           </div>
+         </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="">
+          <div class="unit-4 d-flex">
+            <div class="unit-4-icon mr-4 mb-3"><i class="icon-check bi bi-check2-circle"></i></div>
+           <div>
+             <p>Baja rotación operativa en comparación con otras soluciones subcontratadas.</p>
+           </div>
+         </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="unit-4 d-flex">
+            <div class="unit-4-icon mr-4 mb-3"><i class="icon-check bi bi-check2-circle"></i></div>
+          <div>
+           <p>Equipo altamente escalable y dedicado para cada cliente.</p>
+          </div>
+         </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="unit-4 d-flex">
+           <div class="unit-4-icon mr-4 mb-3"><i class="icon-check bi bi-check2-circle"></i></div>
+            <div>
+             <p>Nuestra operación es portátil (software basado en la nube).</p>
+            </div>
+           </div>
+          </div>
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="">
+          <div class="unit-4 d-flex">
+            <div class="unit-4-icon mr-4 mb-3"><i class="icon-check bi bi-check2-circle"></i></div>
+              <div>
+                <p>Miembros del equipo altamente capacitados vs. I.A.</p>
+             </div>
+            </div>
+          </div>
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="">
+          <div class="unit-4 d-flex">
+            <div class="unit-4-icon mr-4 mb-3"><i class="icon-check bi bi-check2-circle"></i></div>
+             <div>
+              <p>Reconciliaciones diarias.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
+         <div class="unit-4 d-flex">
+          <div class="unit-4-icon mr-4 mb-3"><i class="icon-check bi bi-check2-circle"></i></div>
+           <div>
+             <p>Informes precisos y más oportunos.</p>
+           </div>
+          </div>
+         </div>
+        </div>
+      </div>
+    </section>
+ 
+
+    <section class="site-section" id="team-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">Conozca al equipo</h2>
+            <p class="lead" data-aos="fade-up" data-aos-delay="100">Conozca a nuestro equipo ejecutivo a bordo.</p>
+          </div>
+        </div>
+        <div class="row justify-content-space-evenly">  
+          <div class="col-md-9 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="">
+            <div class="team-member">
+            <!--   <figure>
+                <ul class="social">
+                  <li><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li><a href="#"><span class="icon-twitter"></span></a></li>
+                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                  <li><a href="#"><span class="icon-instagram"></span></a></li>
+                </ul>-->
+                <img src="images/marcus1.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3 text-center">
+                <h3>Marcus Di Fiore</h3>
+                <span class="position">Presidente y Director Ejecutivo</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-9 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member">
+            <!--  <figure>
+                <ul class="social">
+                  <li><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li><a href="#"><span class="icon-twitter"></span></a></li>
+                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                  <li><a href="#"><span class="icon-instagram"></span></a></li>
+                </ul>-->
+                <img src="images/alan.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3 text-center">
+                <h3>Alan Renteria</h3>
+                <span class="position">Director de Operaciones</span>
+              </div>
+            </div>
+          </div>   
+        </div>
+        <div class="row mb-4 justify-content-center">
+          <p><a href="equipo.html" class="btn btn-primary btn-sm">Equipo</a></p> 
+       </div>
       </div>
     </section>
 
- <!--v   <section class="site-section" id="about-section">
+    <section class="site-section" id="gallery-section" data-aos="fade">
       <div class="container">
-
-        <div class="row">
-          <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
-            <figure class="circle-bg">
-            <img src="images/about5.jpg" alt="Free Website Template by Free-Template.co" class="img-fluid">
-            </figure>
-          </div>
-          <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
-            <div class="row">        
-              <div class="col-12 mb-4" data-aos="fade-up" data-aos-delay="">
-                <div class="unit-4 d-flex">
-                  <div class="unit-4-icon mr-4 mb-3"><span class="text-primary flaticon-head"></span></div>
-                  <div>
-                    <h3>Bank Loan</h3>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="mb-0"><a href="#">Learn More</a></p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 mb-4" data-aos="fade-up" data-aos-delay="100">
-                <div class="unit-4 d-flex">
-                  <div class="unit-4-icon mr-4 mb-3"><span class="text-primary flaticon-smartphone"></span></div>
-                  <div>
-                    <h3>Banking Consulation </h3>
-                    <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                    <p class="mb-0"><a href="#">Learn More</a></p>
-                  </div>
-                </div>
-              </div>
-            </div>   
+        <div class="row mb-3">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Galeria</h2>
           </div>
         </div>
+        <div id="posts" class="row no-gutter">
+          <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+            <a href="images/img5.jpg" class="item-wrap fancybox">
+              <img class="img-fluid" src="images/img5.jpg">
+            </a>
+          </div>
+          <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+            <a href="images/img6.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
+              <img class="img-fluid" src="images/img6.jpg">
+            </a>
+          </div>
+          <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+            <a href="images/img7.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
+              <img class="img-fluid" src="images/img7.jpg">
+            </a>
+          </div>
+          <div class="item design col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+            <a href="images/img8.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
+              <img class="img-fluid" src="images/img8.jpg">
+            </a>
+          </div>     
+        </div>
       </div>
-    </section>-->
+    </section> 
 
     <section class="site-section bg-light" id="contact-section" data-aos="fade">
       <div class="container">
         <div class="row mb-5">
           <div class="col-12 text-center">
-            <h2 class="section-title mb-3">Contacto</h2>
-            <p>Si necesita servicios estratégicos para su operación administrativa, no dude en ponerse en contacto con nosotros hoy mismo.</p>
-            <img src="images/about5.jpg" alt="Free Website Template by Free-Template.co" class="img-fluid">
+            <h2 class="section-title mb-3">Contactános</h2>
+            <p>Si necesita servicios administrativos para su operación, no dude en ponerse en contacto con nosotros hoy mismo.</p>
           </div>
         </div>
         <div class="row mb-5">
@@ -472,55 +456,7 @@
             </p>
           </div>
         </div>
-        <!--     <div class="row">
-          <div class="col-md-12 mb-5">
-            <form action="#" class="p-5 bg-white">
-              <h2 class="h4 text-black mb-5">Contacto</h2> 
-              <div class="row form-group">
-                <div class="col-md-6 mb-3 mb-md-0">
-                  <label class="text-black" for="fname">Nombre</label>
-                  <input type="text" id="fname" class="form-control">
-                </div>
-                <div class="col-md-6">
-                  <label class="text-black" for="lname">Apellido</label>
-                  <input type="text" id="lname" class="form-control">
-                </div>
-              </div>
-
-              <div class="row form-group">
-                
-                <div class="col-md-12">
-                  <label class="text-black" for="email">Correo electrónico </label> 
-                  <input type="email" id="email" class="form-control">
-                </div>
-              </div>
-
-              <div class="row form-group">
-                
-                <div class="col-md-12">
-                  <label class="text-black" for="subject">Asunto</label> 
-                  <input type="subject" id="subject" class="form-control">
-                </div>
-              </div>
-
-              <div class="row form-group">
-                <div class="col-md-12">
-                  <label class="text-black" for="message">Mensaje</label> 
-                  <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="Write your notes or questions here..."></textarea>
-                </div>
-              </div>
-
-              <div class="row form-group">
-                <div class="col-md-12">
-                  <input type="submit" value="Enviar Mensaje" class="btn btn-primary btn-md text-white">
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>-->
-    </section>
-
+    </section>  
     
     <footer class="site-footer">
       <div class="container">
@@ -528,15 +464,15 @@
           <div class="col-md-12">
             <div class="row">
               <div class="col-md-5">
-                <h2 class="footer-heading mb-4">Nosotros</h2>
+                <h2 class="footer-heading mb-4">Acerca de Nosotros</h2>
                 <p>Somos una empresa dedicada a la prestación de servicios de administración de franquicias de restaurantes actualmente ubicadas en Estados Unidos.</p>
               </div>
               <div class="col-md-3 ml-auto">
                 <h2 class="footer-heading mb-4">Enlaces</h2>
                 <ul class="list-unstyled">
-                  <li><a href="#about-section" class="smoothscroll">Nosotros</a></li>
-                  <li><a href="#services-section" class="smoothscroll">Servicios</a></li>
-                  <li><a href="#contact-section" class="smoothscroll">Contacto</a></li>
+                  <li><a href="nosotros.html" class="smoothscroll">Nosotros</a></li>
+                  <li><a href="servicios.html" class="smoothscroll">Servicios</a></li>
+                  <li><a href="contacto.html" class="smoothscroll">Contacto</a></li>
                 </ul>
               </div>
     <!--   <div class="col-md-3 footer-social">
@@ -552,7 +488,7 @@
         <div class="row pt-3 mt-3 text-center">
           <div class="col-md-12">
             <div class="border-top pt-5">
-              <p>Copyright &copy;
+              <p>&copy;
                 <script>document.write(new Date().getFullYear());</script> Todos los derechos reservados | </i>Diseñado por <a href="http://deviseis.com/" target="_blank">Devise</a>
               </p>
             </div>
