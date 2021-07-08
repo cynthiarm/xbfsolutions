@@ -2216,3 +2216,42 @@ ul {
 .mw-200{
   min-width: 200px;
 }
+
+.logo {
+  background-image: url('../images/nav/logoblanco.png');
+  background-size: cover;
+  height: 100%;
+  
+}
+
+.logo-container{
+  width: 400px;
+  height: 115px;
+  display: inline-flex;
+  align-items: stretch;
+  margin-right: 1em;
+}
+
+.site-menu{
+  display: flex !important;
+  align-items: center;
+
+}
+
+.is-sticky .logo {
+  background-image:  url('../images/nav/logoazul.png');
+}
+
+.mobile-header .logo {
+  height: 80px;
+  min-height: 90px;
+  margin-right: 2em;
+  width: 300px !important;
+  background-size: contain !important;
+  background-repeat: no-repeat;
+
+}
+
+.menu-row {
+  justify-content: space-around;
+}

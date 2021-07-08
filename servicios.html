@@ -47,18 +47,19 @@
       <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
   
         <div class="container">
-          <div class="row align-items-right"> 
+          <div class="row align-items-right menu-row"> 
             <div class="col-12 col-md-12 d-none d-xl-block">
               <nav class="site-navigation position-relative text-right" role="navigation">
       <div class="navbar-header">
                 <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                  <a href="index-esp.html">
-                    <img class="img-responsive logo" src="images/logo.png" alt="logo">
-                  </a>
+                  <a href="index.html" class="logo-container">
+                    <div class="img-responsive logo"></div>
+                  </a> 
                   <li><a href="index-esp.html" class="nav-link">Inicio</a></li>
                   <li><a href="nosotros.html" class="nav-link">Nosotros</a></li>
                   <li><a href="servicios.html" class="nav-link">Servicios</a></li>
                   <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+                  <li><a href="faq.html" class="smoothscroll">FAQs</a></li>
                   <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span<i class="fa fa-globe"></i></span></a>
                     <div class="dropdown-menu">
@@ -81,8 +82,7 @@
               </nav>
             </div>
   
-            <div class="col-6 d-flex d-xl-none ml-md-0 py-3 mobile-header" style="position: relative; top: 3px;"> <img class="img-responsive logo" src="images/logo.png" alt="logo"><a href="index-esp.html" class="site-menu-toggle js-menu-toggle float-right">  <span class="icon-menu h3"></span></a></div>
-  
+            <div class="d-flex d-xl-none ml-md-0 py-3 mobile-header" style="position: relative; top: 3px;"> <div class="img-responsive logo" ></div><a href="index.html" class="site-menu-toggle js-menu-toggle float-right">  <span class="icon-menu h3"></span></a></div>
           </div>
         </div>
         
@@ -180,7 +180,7 @@
       </div>
     </section>
 
-    <section class="site-section bg-light" id="services-section">
+  <!--   <section class="site-section bg-light" id="services-section">
       <div class="container">
         <div class="row mb-5">
           <div class="col-12 text-center" data-aos="fade">
@@ -219,48 +219,51 @@
           </div>
         </div>
       </div>
-    </section>
+    </section>-->
 
 
     <footer class="site-footer">
       <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="row">
-              <div class="col-md-5">
-                <h2 class="footer-heading mb-4">Acerca de Nosotros</h2>
-                <p>Somos una empresa dedicada a la prestación de servicios de administración de franquicias de restaurantes actualmente ubicadas en Estados Unidos.</p>
-              </div>
-              <div class="col-md-3 ml-auto">
-                <h2 class="footer-heading mb-4">Enlaces</h2>
-                <ul class="list-unstyled">
-                  <li><a href="nosotros.html" class="smoothscroll">Nosotros</a></li>
-                  <li><a href="servicios.html" class="smoothscroll">Servicios</a></li>
-                  <li><a href="contacto.html" class="smoothscroll">Contacto</a></li>
-                  <li><a href="faq-esp.html" class="smoothscroll">Preguntas</a></li>
-                </ul>
-              </div>
-    <!--   <div class="col-md-3 footer-social">
-                <h2 class="footer-heading mb-4">Follow Us</h2>
-                <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-                <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-                <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-                <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-5">
+              <h2 class="footer-heading mb-4">Acerca de Nosotros</h2>
+              <div class="text-justify">
+                <p>Ofrecemos una solución de back office completa para restauranteros, firmas de capital privado y empresarios de negocios en general con sede en EE. UU.</p>
               </div>
             </div>
-          </div>-->
-        </div>
-        <div class="row pt-3 mt-3 text-center">
-          <div class="col-md-12">
-            <div class="border-top pt-5">
-              <p>&copy;
-                <script>document.write(new Date().getFullYear());</script> Todos los derechos reservados | </i>Diseñado por <a href="http://deviseis.com/" target="_blank">Devise</a>
-              </p>
+            <div class="col-md-0 ml-auto">
+              <h2 class="footer-heading mb-4">Enlaces</h2>
+              <ul class="list-unstyled">
+                <li><a href="nosotros.html" class="smoothscroll">Nosotros</a></li>
+                <li><a href="servicios.html" class="smoothscroll">Servicios</a></li>
+                <li><a href="contacto.html" class="smoothscroll">Contacto</a></li>
+                <li><a href="faq-esp.html" class="smoothscroll">FAQs</a></li>
+              </ul>
+            </div>
+          <div class="col-md-3 ml-auto">
+            <a href="index.html">
+              <img src="images/logos/Imagotipo XB.png">
+            </a> 
+             <!--<h2 class="footer-heading mb-4">Follow Us</h2>
+               <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+              <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+              <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>-->
             </div>
           </div>
         </div>
       </div>
-    </footer>
+      <div class="row pt-0 mt-1 text-center">
+        <div class="col-md-12">
+          <div class="border-top pt-1">
+            <p>&copy;
+              <script>document.write(new Date().getFullYear());</script> Todos los derechos reservados | </i>Diseñado por <a href="http://deviseis.com/" target="_blank">Devise</a>            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
   </div> <!-- .site-wrap -->
 

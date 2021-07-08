@@ -47,14 +47,15 @@
     
     <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
 
+ 
       <div class="container">
-        <div class="row align-items-right"> 
+        <div class="row align-items-right menu-row"> 
           <div class="col-15 col-md-15 d-none d-xl-block">
             <nav class="site-navigation position-relative text-right" role="navigation">
     <div class="navbar-header">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <a href="index.html">
-                  <img class="img-responsive logo" src="images/logo.png" alt="logo">
+                <a href="index.html" class="logo-container">
+                  <div class="img-responsive logo"></div>
                 </a>  
                 <li><a href="index.html" class="nav-link">Home</a></li>
                 <li><a href="about.html" class="nav-link">About Us</a></li>
@@ -62,7 +63,7 @@
                 <li><a href="contact.html" class="nav-link">Contact</a></li>
                 <li><a href="faq.html" class="smoothscroll">FAQs</a></li>
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span<i class="fa fa-globe"></i></span></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span><i class="fa fa-globe"></i></span></a>
                   <div class="dropdown-menu">
                    <ul>
                     <li><a href="index.html">English</a></li>
@@ -78,13 +79,14 @@
                  <!-- <li class="social"><a href="#contact-section" class="nav-link"><span class="icon-facebook"></span></a></li>
                 <li class="social"><a href="#contact-section" class="nav-link"><span class="icon-twitter"></span></a></li>
                 <li class="social"><a href="#contact-section" class="nav-link"><span class="icon-linkedin"></span></a></li>--> 
-              
+            
             </nav>
           </div>
-          <div class="col-6 d-flex d-xl-none ml-md-0 py-3 mobile-header" style="position: relative; top: 3px;"> <img class="img-responsive logo" src="images/logo.png" alt="logo"><a href="index.html" class="site-menu-toggle js-menu-toggle float-right">  <span class="icon-menu h3"></span></a></div>
+          <div class="d-flex d-xl-none ml-md-0 py-3 mobile-header" style="position: relative; top: 3px;"> <div class="img-responsive logo" ></div><a href="index.html" class="site-menu-toggle js-menu-toggle float-right">  <span class="icon-menu h3"></span></a></div>
         </div>
       </div>
     </header>
+
 
     <div id="banner-area">
       <img class="image-banner-4" src="images/img_1.jpg" alt ="" />
@@ -216,45 +218,49 @@
       </div>
     </section>-->
 
-<footer class="site-footer">
-    <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="row">
-          <div class="col-md-5">
-            <h2 class="footer-heading mb-4">About Us</h2>
-            <p>We provide a full back office solution for U.S based restaurateurs, private equity firms and general business entrepreneurs.</p>
-          </div>
+    <footer class="site-footer">
+      <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-5">
+              <h2 class="footer-heading mb-4">About Us</h2>
+              <div class="text-justify">
+                <p>We provide a full back office solution for U.S based restaurateurs, private equity firms and general business entrepreneurs.</p>
+              </div>
+            </div>
+            <div class="col-md-0 ml-auto">
+              <h2 class="footer-heading mb-4">Quick Links</h2>
+              <ul class="list-unstyled">
+                <li><a href="about.html" class="smoothscroll">About Us</a></li>
+                <li><a href="services.html" class="smoothscroll">Services</a></li>
+                <li><a href="contact.html" class="smoothscroll">Contact Us</a></li>
+                <li><a href="faq.html" class="smoothscroll">FAQs</a></li>
+              </ul>
+            </div>
           <div class="col-md-3 ml-auto">
-            <h2 class="footer-heading mb-4">Quick Links</h2>
-            <ul class="list-unstyled">
-              <li><a href="about.html" class="smoothscroll">About Us</a></li>
-              <li><a href="services.html" class="smoothscroll">Services</a></li>
-              <li><a href="contact.html" class="smoothscroll">Contact Us</a></li>
-              <li><a href="faq.html" class="smoothscroll">FAQs</a></li>
-            </ul>
-          </div>
-<!--   <div class="col-md-3 footer-social">
-            <h2 class="footer-heading mb-4">Follow Us</h2>
-            <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-            <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-            <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-            <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+            <a href="index.html">
+              <img src="images/logos/Imagotipo XB.png">
+            </a> 
+             <!--<h2 class="footer-heading mb-4">Follow Us</h2>
+               <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+              <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+              <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>-->
+            </div>
           </div>
         </div>
-      </div>-->
-    </div>
-    <div class="row pt-3 mt-3 text-center">
-      <div class="col-md-12">
-        <div class="border-top pt-5">
-          <p>Copyright &copy;
-            <script>document.write(new Date().getFullYear());</script> All rights reserved | </i>Designed by <a href="http://deviseis.com/" target="_blank">Devise</a>
-          </p>
+      </div>
+      <div class="row pt-0 mt-1 text-center">
+        <div class="col-md-12">
+          <div class="border-top pt-1">
+            <p>Copyright &copy;
+              <script>document.write(new Date().getFullYear());</script> All rights reserved | </i>Designed by <a href="http://deviseis.com/" target="_blank">Devise</a>
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</footer>
+  </footer>
 
   </div> <!-- .site-wrap -->
 
