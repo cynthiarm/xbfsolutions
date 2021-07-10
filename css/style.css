@@ -2255,3 +2255,48 @@ ul {
 .menu-row {
   justify-content: space-around;
 }
+
+.footer-list .icon {
+  color: #fff;
+  padding: 5px;
+}
+
+.footer-list > li {
+  display: flex;
+  margin-left: -20px;
+}
+
+.services .fa, .services .fas, .services-home .fas, .services-home .fa {
+  font-size: 32px;
+  color: #1d3c5c;
+  margin: 0em 0em .5em 0em;
+}
+
+.faq-icon {
+  font-size: 42px;
+  color: #1d3c5c;
+}
+
+.contact-section-container {
+  background-color: #ebebeb;
+  border-radius: 5px;
+  min-height: 170px;
+  margin-right: 1em;
+  display: flex;
+  align-items: center;
+    padding: 2em;
+}
+
+.contact-section-container .fas {
+  font-size: 42px;
+  color: #1d3c5c;
+  max-width: 80px;
+}
+
+.contact-section-container .col {
+  flex:1;
+}
+.contact-section-container .col > span {
+  text-align: left;
+  margin-bottom: 1em;
+}

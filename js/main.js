@@ -337,4 +337,22 @@ jQuery(document).ready(function($) {
 	  return false;
 	});
 
+	   //Clients
+
+	$("#client-carousel").owlCarousel({
+
+		navigation : false, // Show next and prev buttons
+		slideSpeed : 400,
+		pagination:false,
+		items : 5,
+		rewindNav: true,
+		itemsDesktop : [1199,3],
+		itemsDesktopSmall : [979,3],
+		stopOnHover:true,
+		autoplay:true,
+		autoplayTimeout:3000,
+		loop: true
+	 });
 });
+
+
