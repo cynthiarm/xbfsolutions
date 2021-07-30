@@ -2138,7 +2138,8 @@ figure figcaption {
 
 @media (max-width: 1000px){
 	.image-banner-4 {
-		width: auto !important;
+		width: 100% !important;
+    height: auto !important;
 	}
 }
 
@@ -2299,4 +2300,27 @@ ul {
 .contact-section-container .col > span {
   text-align: left;
   margin-bottom: 1em;
+}
+
+@media(max-width:800px) {
+  .quick-links {
+    margin: 1em !important;
+  }
+  .footer-list {
+    padding-left: 1em !important;
+  }
+  .footer-logo {
+    margin-left: 1em !important;
+    margin-bottom: 1em !important;
+  }
+  .contact-info-container {
+    margin: 0em auto !important;
+  }
+  .contact-info-container .col-md-6{
+    padding-right: 0em !important;
+  }
+  .contact-section-container {
+    margin-right: 0em !important;
+    margin-bottom: 1em !important;
+  }
 }
