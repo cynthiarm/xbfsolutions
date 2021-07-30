@@ -384,12 +384,12 @@ body:after {
           visibility: visible;
           opacity: 1; }
 
-          .logo {
+          .logoresp {
             width: 370px;
             margin-right: 150px;
           }
           @media (max-width: 1200px) {
-            .logo { 
+            .logoresp { 
               width: 200px !important;       
               margin-right: 1em;  
             }
@@ -2223,6 +2223,21 @@ ul {
   background-size: cover;
   height: 100%;
   
+}
+
+.logoresp {
+  background-image: url('../images/nav/logoazul - resp.png');
+  background-size: cover;
+  height: 100%;
+  
+}
+
+.logo-containerresp{
+  width: 400px;
+  height: 115px;
+  display: inline-flex;
+  align-items: stretch;
+  margin-right: 1em;
 }
 
 .logo-container{
