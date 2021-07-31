@@ -2222,20 +2222,25 @@ ul {
 .logo {
   background-image: url('../images/nav/logoblanco.png');
   background-size: cover;
-  height: 100%;
-  
+  height: 100%; 
 }
 
-.logoresp {
-  background-image: url('../images/nav/logoazul - resp.png');
-  background-size: cover;
+.site-mobile-menu .logo{
+  background-image: url('../images/nav/logoazul - resp.png') !important;
+  background-size: contain;
+  background-repeat: no-repeat;
   height: 100%;
-  
+}
+
+.site-mobile-menu .logo-container{
+  width: 280px !important;
+  height: 90px !important;
+  margin-left: -20px;
 }
 
 .logo-containerresp{
-  width: 200px;
-  height: 100px;
+  width: 400px;
+  height: 115px;
   display: inline-flex;
   align-items: stretch;
   margin-right: 1em;
