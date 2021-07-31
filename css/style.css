@@ -405,7 +405,7 @@ body:after {
 
           .site-mobile-menu .site-nav-wrap > li > span {
             padding-left: 20px;
-            font-size: 20px;
+            font-size: 16px;
         }
         .site-mobile-menu .site-nav-wrap span {
             padding: 10px 20px;
@@ -480,6 +480,7 @@ body:after {
       padding: 10px 20px;
       display: block;
       position: relative;
+      font-size: 16px;
       color: #212529; }
       .site-mobile-menu .site-nav-wrap a:hover {
         color: #1d3c5c; }
@@ -530,7 +531,7 @@ body:after {
         width: auto !important; }
       .site-mobile-menu .site-nav-wrap > li > a {
         padding-left: 20px;
-        font-size: 20px; }
+        font-size: 16px; }
       .site-mobile-menu .site-nav-wrap > li > ul {
         padding: 0;
         margin: 0;
@@ -2233,8 +2234,8 @@ ul {
 }
 
 .logo-containerresp{
-  width: 400px;
-  height: 115px;
+  width: 200px;
+  height: 100px;
   display: inline-flex;
   align-items: stretch;
   margin-right: 1em;
