@@ -351,7 +351,8 @@ jQuery(document).ready(function($) {
 		stopOnHover:true,
 		autoplay:true,
 		autoplayTimeout:3000,
-		loop: true
+		loop: true,
+		rtl: true
 	 });
 });
 

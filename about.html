@@ -47,7 +47,6 @@
     
     <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
 
- 
       <div class="container">
         <div class="row align-items-right menu-row"> 
           <div class="col-15 col-md-15 d-none d-xl-block">
@@ -58,7 +57,14 @@
                   <div class="img-responsive logo"></div>
                 </a>  
                 <li><a href="index.html" class="nav-link">Home</a></li>
-                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li class="has-children">
+                  <a href="about.html" class="nav-link">About Us</a>
+                  <ul class="dropdown">
+                    <li><a href="misionvision.html" class="nav-link">Mission and Vision</a></li>
+                    <li><a href="team.html" class="nav-link">Leadership Team</a></li>
+                    <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                    <li><a href="coverage.html" class="nav-link">Brand Coverage</a></li>                  
+                  </ul>
                 <li><a href="services.html" class="nav-link">Services</a></li>
                 <li><a href="contact.html" class="nav-link">Contact Us</a></li>
                 <li><a href="faq.html" class="smoothscroll">FAQs</a></li>
@@ -72,10 +78,6 @@
                   </div>
                 </li>
               </ul>  
-           <!--       <ul class="dropdown">
-                    <li><a href="#team-section" class="nav-link">Team</a></li>
-                    <li><a href="#gallery-section" class="nav-link">Gallery</a></li> 
-                  </ul>--> 
                  <!-- <li class="social"><a href="#contact-section" class="nav-link"><span class="icon-facebook"></span></a></li>
                 <li class="social"><a href="#contact-section" class="nav-link"><span class="icon-twitter"></span></a></li>
                 <li class="social"><a href="#contact-section" class="nav-link"><span class="icon-linkedin"></span></a></li>--> 
@@ -224,7 +226,7 @@
   </section>
 
        
-  <section class="site-section " id="gallery-section" data-aos="fade">
+<!--  <section class="site-section " id="gallery-section" data-aos="fade">
     <div class="container">
       <div class="row mb-3 align-items-center">
         <div class="col-12 text-center">
@@ -233,7 +235,62 @@
       </div>
       <img class="img-fluid" src="images/logos/partners.png">   
     </div>
-  </section> 
+  </section> -->
+
+  <section class="site-section" id="clients">
+    <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center" data-aos="fade">
+            <h2 class="section-title mb-3">Our Key Partners</h2>
+          </div>
+        </div>
+        <div class="row wow fadeInLeft">
+          <div id="client-carousel" class="col-sm-15 owl-carousel owl-theme text-center client-carousel">
+            <figure class="item client_logo">
+              <a href="https://www.mirus.com/">
+                <img src="images/logos/miruslogo.png" alt="client">
+              </a>
+            </figure>
+            <figure class="item client_logo">
+              <a href="https://www.maxpanda.com/">
+                <img src="images/logos/maxpanda.png" alt="client">
+              </a>
+            </figure>
+            <figure class="item client_logo">
+              <a href="https://www.paylocity.com/">
+                <img src="images/logos/paylocity.png" alt="client">
+              </a>
+            </figure>
+            <figure class="item client_logo">
+              <a href="https://www.alphastaff.com/">
+                <img src="images/logos/alphastaff.png" alt="client">
+              </a>
+            </figure>
+            <figure class="item client_logo">
+              <a href="https://www.getyooz.com/">
+                <img src="images/logos/Yooz.png" alt="client">
+              </a>
+            </figure>
+            <figure class="item client_logo">
+              <a href="https://www.paychex.com/">
+                <img src="images/logos/paychex.png" alt="client">
+              </a>
+            </figure>
+            <figure class="item client_logo">
+              <a href="https://www.sageintacct.com/">
+                <img src="images/logos/sageintacct.png" alt="client">
+              </a>
+            </figure>
+            <figure class="item client_logo">
+              <a href="https://www.pboadvisory.com/">
+                <img src="images/logos/pboadvisory.png" alt="client">
+              </a>
+            </figure>
+          </div><!-- Owl carousel end -->
+        </div><!-- Main row end -->
+    </div><!--/ Container end -->
+  </section><!--/ Clients end --> 
+   
 
   <footer class="site-footer">
     <div class="container">
