@@ -1734,7 +1734,10 @@ body:after {
   margin: 0;
   padding: 0;
   position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+}
+
+
 
 .team-member .social {
   position: absolute;
@@ -1762,6 +1765,13 @@ body:after {
   margin: 0;
   bottom: 0;
   font-size: 1.2rem; }
+
+.team-member {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
 .team-member .position {
   color: #949393;
