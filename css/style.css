@@ -393,6 +393,7 @@ body:after {
               width: 200px !important;       
               margin-right: 1em;  
             }
+
             .mobile-header {
               align-items: center;
               justify-content: space-between;
@@ -2263,6 +2264,7 @@ ul {
   align-items: stretch;
   margin-right: 1em;
 }
+
 
 .site-menu{
   display: flex !important;

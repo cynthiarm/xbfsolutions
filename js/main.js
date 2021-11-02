@@ -352,7 +352,19 @@ jQuery(document).ready(function($) {
 		autoplay:true,
 		autoplayTimeout:3000,
 		loop: true,
-		rtl: true
+		rtl: true, 
+		responsive: {
+			0:{
+			  items: 1
+			},
+			480:{
+			  items: 3
+			},
+			769:{
+			  items: 6
+			}
+		}
+		
 	 });
 });
 
