@@ -4918,16 +4918,7 @@
   content: "\e56b";
 }
 
-.client-carousel .item a{
-	margin-right: 20px;
-	border: 1px solid #fffff;
-	border-radius: 3px;
-	display: inline-block;
-	padding: 10px;
-	-webkit-transition: all 350ms;
-	-ms-transition: all 350ms;
-	transition: all 350ms;
-}
+
 
 .client-carousel .item a:hover{
 	border: 1px solid #49a2e7;
@@ -5113,4 +5104,3 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', end
 	bottom:20px
 }
 }
-

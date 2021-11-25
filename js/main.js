@@ -353,11 +353,12 @@ jQuery(document).ready(function($) {
 		autoplayTimeout:3000,
 		loop: true,
 		rtl: true, 
+		margin: 1,
 		responsive: {
 			0:{
 			  items: 1
 			},
-			480:{
+			350:{
 			  items: 3
 			},
 			769:{
@@ -366,6 +367,10 @@ jQuery(document).ready(function($) {
 		}
 		
 	 });
+
+
+
+
 });
 
 

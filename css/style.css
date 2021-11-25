@@ -2360,3 +2360,48 @@ ul {
     padding-top: 4em;
   }
 }
+
+.owl-carousel .owl-stage {
+  display: flex;
+  align-items: center;
+}
+.owl-carousel .caption {
+  text-align: center;
+}
+
+.owl-carousel {
+  margin-bottom:1em;
+}
+
+@media(max-width:320px){
+  .owl-item {
+    margin-left: 5vw !important;
+  }
+}
+
+
+@media(max-width:900px) {
+  .map-image {
+    width: 100vw;
+  }
+}
+
+.client-carousel .item a{
+	border: 1px solid #ffffff !important;
+}
+.owl-centered .owl-wrapper {
+  display: table !important;
+}
+.owl-centered .owl-item {
+  display: table-cell;
+  float: none;
+  vertical-align: middle;
+}
+.owl-centered .owl-item > div {
+  text-align: center;
+}
+
+.client-carousel .item a{
+	border: 1px solid #ffffff !important;
+}
+
