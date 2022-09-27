@@ -2231,13 +2231,13 @@ ul {
 }
 
 .logo {
-  background-image: url('../images/nav/logoblanco.png');
+  background-image: url('../images/nav/xblogoblancoR.png');
   background-size: cover;
   height: 100%; 
 }
 
 .site-mobile-menu .logo{
-  background-image: url('../images/nav/logoazul - resp.png') !important;
+  background-image: url('../images/nav/logoazul - resp -R.png') !important;
   background-size: contain;
   background-repeat: no-repeat;
   height: 100%;
@@ -2273,7 +2273,7 @@ ul {
 }
 
 .is-sticky .logo {
-  background-image:  url('../images/nav/logoazul.png');
+  background-image:  url('../images/nav/xblogoazulR.png');
 }
 
 .mobile-header .logo {
